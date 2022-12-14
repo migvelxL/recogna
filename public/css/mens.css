@@ -1,0 +1,29 @@
+.custom-msg {
+    padding: 0.3em 1em;
+    border-radius: 0.3em;
+    color: white;
+    font-size: 1em;
+    position: fixed;
+    bottom: 2em;
+    right: 1em;
+    opacity: 0;
+    transition: opacity 500ms linear;
+    z-index: 999999999;
+}
+
+.custom-msg.active {
+    opacity: 1;
+}
+
+.msg-danger {
+    background-color: #ff2121;
+}
+
+.msg-alert {
+    background-color: yellow;
+    color: black;
+}
+
+.msg-success {
+    background-color: rgb(113, 172, 24);
+}

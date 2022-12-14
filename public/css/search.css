@@ -1,0 +1,453 @@
+* {
+    font-family: 'Quicksand';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: table;
+    color: black;
+    background-color: #ffffff;
+}
+
+header
+{
+    background-color: #f7f7f7;
+}
+
+
+
+.btn
+{
+    background-color: #6610f2;
+}
+
+
+
+/* navbar */
+
+#navbar
+{
+    justify-content: space-between;
+    background-image: url(/img/header.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    height: 0px;
+    margin-top: -10px;
+}
+
+
+#navbar a
+{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#navbar li
+{
+    padding-left: 40px;
+}
+
+#navbar a:hover
+{
+    color: #C4C4C4;
+}
+
+#navbar img{
+    width: 150px;
+}
+
+
+/*titulo form*/
+
+
+
+.title h3
+{
+    text-align: center;
+    color: #6610f2;
+    text-transform: uppercase;
+}
+
+.title hr
+{
+    color: #6b5f5f;
+    height: 2px;
+    width: 100px;
+    position: relative;
+    left: 500px;
+}
+
+.link
+{
+    color: black;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------------*/
+
+.form-check
+{
+    text-align: center;
+    padding: auto;
+}
+
+.form-control
+{
+    background-color: #ebeef2;
+    border-color: #ebeef2;
+    width: 165px;
+    margin-right: 10px;
+}
+
+.filtros
+{
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+}
+
+.filtros .p
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 10px;
+    border: none;
+    color: black;
+    background-color: transparent;
+}
+
+/*------------------------------dados-----------------------------------*/
+.fundo
+{
+    background-color: #255EED;
+    height: 120px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.controle .container
+{
+    padding: 5px;
+}
+
+.frente
+{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    height: 110px;
+    position: relative;
+    justify-content: center;
+}
+
+.frente button
+{
+    background-color: #255EED;
+}
+
+.select-control
+{
+    background-color: #ebeef2;
+    border-color: #ebeef2;
+    width: 165px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #6c757d;
+}
+
+/*------------------------tabela----------------------*/
+
+.fundo th
+{
+    text-align: center;
+    border-radius: 5px;
+}
+
+.fundo td
+{
+    text-align: center;
+}
+
+.table>:not(caption)>*>* 
+{
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 0px;
+    box-shadow: var(--bs-table-accent-bg);
+}
+
+
+/*--------------home adm--------------------*/
+
+.meio
+{
+    display: flex;
+}
+
+.texto_meio
+{
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline;
+    margin-top: 90px;
+    
+}
+
+.img_home
+{
+    margin-left: 150px;
+}
+
+/*--------------home--------------------*/
+
+.text_meio
+{
+    font-size: 18px;
+    font-weight: bolder;
+    display: inline;
+}
+
+.atencao
+{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #fcba03;
+}
+
+/*--------------contatos--------------------*/
+
+.cont
+{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.names
+{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.subnames 
+{
+    font-size: 17px;
+}
+
+
+
+/*-----controle máquina--------*/
+
+.frentemaq
+{
+    background-color: white;
+    border-radius: 10px;
+    height: auto;
+    position: relative;
+}
+
+.frentemaq button
+{
+    background-color: #255EED;
+    margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.fundomaq
+{
+    background-color: #255EED;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tit
+{
+    padding-left: 15px;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.inf
+{
+    margin-left: 10px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.alinhar
+{
+    display: flex;
+    text-align: center;
+}
+
+.botoes
+{
+    text-align: center;
+}
+
+.plaq
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+    margin-left: 5px;
+}
+
+.break
+{
+    flex-basis: 100%;
+    height: 0;
+}
+
+.fundomaq a
+{
+    text-decoration: none;
+}
+
+.cols
+{
+    margin-bottom: 5px;
+}
+
+.lin
+{
+    margin-bottom: 5px;
+    white-space: nowrap; 
+    width: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ok
+{
+    background-color: lightgreen;
+    border-radius: 5px;
+    display: flex;
+}
+
+.invalid-feedback
+{
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*-----controle users--------*/
+
+.booes
+{
+    display: block;
+    margin-right: -10px;
+}
+
+.nome
+{
+    white-space: nowrap; 
+    width: 150px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 5px;
+}
+.email
+{
+    white-space: nowrap; 
+    width: 150px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 5px;
+}
+.telefone
+{
+    white-space: nowrap; 
+    width: 110px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 5px;
+}
+.maq
+{
+    white-space: nowrap; 
+    width: 160px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 5px;
+}
+.adm
+{
+    white-space: nowrap; 
+    width: 140px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 5px;
+}
+.status
+{
+    white-space: nowrap; 
+    width: 75px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 5px;
+}
+
+.baixo .nome
+{
+    background-color: #ebeef2;
+    padding: 8px;
+    border-radius: 10px;
+}
+.baixo .email
+{
+    background-color: #ebeef2;
+    padding: 8px;
+    border-radius: 10px;
+}
+.baixo .telefone
+{
+    background-color: #ebeef2;
+    padding: 8px;
+    border-radius: 10px;
+}
+.baixo .maq
+{
+    background-color: #ebeef2;
+    padding: 8px;
+    border-radius: 10px;
+}
+.baixo .adm
+{
+    background-color: #ebeef2;
+    padding: 8px;
+    border-radius: 10px;
+}
+.baixo .status
+{
+    background-color: #ebeef2;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+

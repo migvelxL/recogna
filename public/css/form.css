@@ -1,0 +1,588 @@
+* {
+    font-family: 'Quicksand';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: table;
+    color: black;
+    background-color: #ebeef2;
+}
+
+header
+{
+    background-color: #f7f7f7;
+}
+
+
+.cardSolicit
+{
+    border-radius: 42px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin-left: 60px;
+}
+
+.cardRegister
+{
+    border-radius: 42px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin-left: 60px;
+}
+
+
+.cardLogin
+{
+    border-radius: 42px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin-left: 60px;
+}
+
+.cardCadUser
+{
+    border-radius: 42px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin-left: 60px;
+}
+
+.cardAlterar
+{
+    border-radius: 42px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin-left: 60px;
+}
+
+
+.cardAlterarMaq
+{
+    border-radius: 42px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.cardMais
+{
+    border-radius: 42px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.cardAlocar
+{
+    border-radius: 42px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+
+
+.cardArea
+{
+    border-radius: 42px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin-left: 60px;
+}
+
+.cardCadMaq
+{
+    border-radius: 42px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin-left: 60px;
+}
+
+.cardReset
+{
+    border-radius: 42px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin-left: 60px;
+}
+
+.cardReset2
+{
+    border-radius: 42px;
+    text-align: center;
+    margin-top: 70px;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin-left: 60px;
+}
+
+
+.form-group
+{
+    position: relative;
+    padding: 10px;
+    margin: 0;
+    left: 110px;
+}
+
+.form-group input
+{
+    width: 300px;
+}
+
+.cardAlterar .form-group
+{
+    left: 35px;
+    text-align: left;
+}
+
+.cardAlterar .form-group input
+{
+    width: 250px;
+}
+
+.cardAlterar .btn
+{
+    margin-right: 100px;
+}
+
+.cardAlterar .fechar .btn
+{
+    text-decoration: none;
+    margin-top: -65px;
+    margin-left: 200px;
+}
+
+.cardArea .form-group
+{
+    left: 35px;
+    text-align: left;
+}
+
+.cardArea .form-group input
+{
+    width: 250px;
+}
+
+
+.cardArea a
+{
+    text-decoration: none;
+}
+
+
+
+
+.btn
+{
+    background-color: #6610f2;
+}
+
+.btn_logout
+{
+    color: white;
+    position: relative;
+}   
+
+.form-control
+{
+    background-color: #ebeef2;
+    border-color: #ebeef2;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* navbar */
+
+#navbar
+{
+    justify-content: space-between;
+    background-image: url(/img/header.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    height: 0px;
+    margin-top: -10px;
+}
+
+
+#navbar a
+{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#navbar li
+{
+    padding-left: 40px;
+}
+
+#navbar a:hover
+{
+    color: #C4C4C4;
+}
+
+#navbar img{
+    width: 150px;
+}
+
+
+/*titulo form*/
+
+
+
+.title h3
+{
+    color: #6610f2;
+}
+
+.title hr
+{
+    color: #6b5f5f;
+    height: 2px;
+    width: 100px;
+    position: relative;
+    left: 230px;
+}
+
+.link
+{
+    color: black;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------------*/
+
+.form-check
+{
+    text-align: center;
+    padding: auto;
+}
+
+/*Botão_adm - register*/
+
+.switch__container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 250px;
+    margin-right: 90px;
+}
+  
+.switch {
+    visibility: hidden;
+    position: absolute;
+    margin-left: -9999px;
+}
+  
+.switch + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+.switch--flat + label {
+    padding: 2px;
+    width: 50px;
+    margin-right: -200px;
+    height: 25px;
+    background-color: #128DF7;
+    border-radius: 60px;
+    transition: background 0.4s;
+}
+.switch--flat + label:before,
+.switch--flat + label:after {
+    display: block;
+    position: absolute;
+    content: "";
+}
+.switch--flat + label:before {
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
+    background-color: #fff;
+    border-radius: 60px;
+    transition: background 0.4s;
+}
+.switch--flat + label:after {
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    width: 17px;
+    background-color: #128DF7;
+    border-radius: 50px;
+    transition: margin 0.4s, background 0.4s;
+}
+.switch--flat:checked + label {
+    background-color: #6610F2;
+}
+.switch--flat:checked + label:after {
+    margin-left: 24.5px;
+    background-color: #6610F2;
+}
+.dec{
+    display: flex;
+}
+
+.dec div p{
+    font-size: 15px;
+    margin-top: 18px;
+}
+
+.func{
+    margin-right: 20px;
+    color: #6610F2;
+    font-weight: bold;
+}
+
+.ger{
+    padding-left: 90px;
+    margin-right: -200px;
+    color: #128DF7;
+    font-weight: bold;
+}
+
+.cardAlterar select
+{
+    background-color: #ebeef2;
+    border-color: #ebeef2;
+    border-radius: 5px;
+    height: 38px;
+    width: 250px;
+}
+
+.cardAlterar .select-control
+{
+    margin-bottom: 18px;
+}
+
+/*------------Cadastro maquinas---------------*/
+
+
+.cardCadMaq .form-group
+{
+    left: 35px;
+    text-align: left;
+}
+
+.cardCadMaq .form-group input
+{
+    width: 250px;
+}
+
+/*------------Resetar senha---------------*/
+
+.cardReset .form-group
+{
+    left: 35px;
+    text-align: left;
+}
+
+.cardReset .form-group input
+{
+    width: 250px;
+}
+
+.cardReset2 .form-group
+{
+    left: 35px;
+    text-align: left;
+}
+
+.cardReset2 .form-group input
+{
+    width: 250px;
+}
+
+.ult
+{
+    display: flex;
+}
+
+
+/*------------Alteração e exclusão maquina---------------*/
+
+
+.cardAlterarMaq .form-group
+{
+    left: 35px;
+    text-align: left;
+}
+
+.cardAlterarMaq .form-group input
+{
+    width: 250px;
+}
+
+.cardAlterarMaq select
+{
+    background-color: #ebeef2;
+    border-color: #ebeef2;
+    border-radius: 5px;
+    height: 38px;
+    width: 250px;
+}
+
+.cardAlterarMaq .btn
+{
+    margin-right: 100px;
+}
+
+.cardAlterarMaq .fechar .btn
+{
+    text-decoration: none;
+    margin-left: 200px;
+    margin-top: -65px;
+}
+
+.cardAlterarMaq .input-control
+{
+    margin-bottom: 10px;
+}
+
+/*------------CadUser---------------*/
+
+.cardCadUser .padrao .ult
+{
+    left: 10px;
+}
+
+.cardCadUser .form-group
+{
+    left: 35px;
+    text-align: left;
+}
+
+.cardCadUser .form-group input
+{
+    width: 250px;
+}
+
+.cardRegister .form-group
+{
+    left: 35px;
+    text-align: left;
+}
+
+.cardRegister .form-group input
+{
+    width: 250px;
+}
+
+
+/*------------Mais---------------*/
+
+.botoes
+{
+    text-align: center;
+}
+
+.botoes a
+{
+    text-decoration: none;
+}
+
+.cardMais .form-group
+{
+    left: 35px;
+    text-align: left;
+}
+
+.cardMais .form-group input
+{
+    width: 250px;
+}
+
+/*------------Login---------------*/
+
+.cardLogin .icon_log input
+{
+    font-size: 15x;
+    font-family: "FontAwesome", 'Quicksand';
+    padding-left: 20px;
+    width: 300px;
+}
+
+.invalid-feedback
+{
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*------------Alocar---------------*/
+
+.cardAlocar .form-group
+{
+    left: 35px;
+    text-align: left;
+}
+
+.cardAlocar .form-group input
+{
+    width: 250px;
+}
+
+
+

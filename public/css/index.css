@@ -1,0 +1,198 @@
+/* geral */
+* {
+    font-family: 'Quicksand';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-image: url(/img/header.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    
+}
+
+header
+{
+    background-color: #f7f7f7;
+}
+
+.row
+{
+    margin:0;
+}
+
+.container-fluid
+{
+    padding: 0;
+}
+
+.btn-primary
+{
+    background-color: #f2a340;
+    border: 2px solid #c28008;
+}
+
+.btn-primary:hover
+{
+    background-color: #c28008;
+    border-color: #c28008;
+}
+
+/* navbar */
+
+#navbar
+{
+    justify-content: space-between;
+    background-image: url(/img/header.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    height: 0px;
+    margin-top: -10px;
+}
+
+#navbar a
+{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#navbar li
+{
+    padding-left: 40px;
+}
+
+#navbar a:hover
+{
+    color: #C4C4C4;
+}
+
+#navbar img{
+    width: 150px;
+}
+
+#index_logo
+{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#index_logo div
+{
+    color: white;
+    size: 15px;
+}
+
+
+
+
+
+
+/* search container */
+/*#search-container
+{
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1
+{
+    color: #f2a340;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Events list 
+
+#events-container
+{
+    padding: 50px;
+}
+
+#events-container h2
+{
+    margin-bottom: 10px;
+}
+
+#events-container .subtitle
+{
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#cards-container
+{
+    display: flex;
+}
+
+#events-container .card
+{
+    flex: 1 1 0;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px;
+}
+
+#events-container img
+{
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-date
+{
+    font-size: 12px;
+    color: #ccc;
+}
+
+.card .card-title
+{
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card-participants
+{
+    font-size: 14px;
+    color: #757575
+}
+
+/* footer 
+footer
+{
+    text-align: center;
+    background-color: #353e48;
+    color: #f7f7f7;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p
+{
+    margin-bottom: 0;
+}*/
