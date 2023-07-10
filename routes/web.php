@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
-
+use App\Mail\MyTestEmail;
+use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,14 +15,21 @@ use Illuminate\Support\Facades\Auth;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/solic_cad', [App\Http\Controllers\AdmController::class, 'solic_cad']);
+
+Route::get('/testroute', function() {
+    $name = "Funny Coder";
+
+    // The email sending is done using the to method on the Mail facade
+    Mail::to('migueldeoliveiracorreia@gmail.com')->send(new MyTestEmail($name));
+});
 
 Auth::routes();
+
+Route::get('/solic_cad', [App\Http\Controllers\AdmController::class, 'solic_cad']);
 
 Route::post('/cadastro', [App\Http\Controllers\AdmController::class, 'store'])->name('cadastro');
 
